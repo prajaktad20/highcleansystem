@@ -1,0 +1,101 @@
+*{margin:0; padding:0;}
+
+
+.wrapper{width:1000px; margin:0 auto;}
+
+/* job sheet css */
+		
+		.title h1{font-size:30px; margin:0; padding-left:12%; text-align:left;}
+		.heading{background:#5b9bd5; margin-bottom:8px;}
+		.client_name, .Position_wrapper{line-height:28px; font-size:14px;}
+		.client_name td, .Position_wrapper td, .Scope_wrapper td, .Job_Notes_wrapper td, .equipment_wrapper td{padding-left:12px;}
+		.td1{background:#deebf7;}
+		.td2{background:#e9eff7;}
+		.td3{background:#d1deef;}
+		.padding_left{padding:0 !important;}
+		.table2 tr td{text-align:center;}
+		.table2 .td3 td{padding-bottom:10px;}
+		.pickup_wrapper{margin:15px -15px;}
+		.Position_wrapper .table3 .staff_2 td{padding-bottom:50px;}
+		.Scope_wrapper{margin:5px -15px;}
+		.Scope_wrapper .table4 .td3 td{padding-bottom:50px;}
+		.Job_Notes_wrapper .table5 .td3 td{padding:35px 0;}
+		.border{border:2px solid #000; padding:5px;}
+		.border td{line-height:28px;}
+		.address{padding-left:12px; font-size:12px; margin:20px 0;}
+		.border table{border-spacing: 2px !important;  border-collapse: inherit;}
+		.padding_left table{border-spacing:0px !important;}
+		.padding_left table .td3 td{border-spacing: 2px !important;  border-collapse: inherit;}
+		.wtilliams{padding-left:0 !important;}
+		.client_name1{padding-right:0 !important;}
+		.heading > td{border-bottom:5px solid #fff;}
+
+
+.grid-view tr.odd {
+  background-color: #e9eff7;
+  color: black;
+}
+.grid-view tr.even {
+  background-color: #FFF;
+  color: black;
+}		
+		
+/* job detils css */
+.left-site tr td{border-color:#fff;}
+.right-site{}
+.top_div table tr td{text-align:center;}
+.top_div table .heading{height:40px;}
+.top_div table .td1{height:45px;}
+.top_div, .clint_div, .pickup_wrapp, .Scope_of_Work{margin-bottom:10px; line-height:28px;}
+.clint_div tr td{padding-left:8px;}
+.pickup_wrapp tr td{padding-left:8px;}
+.Scope_of_Work tr td{padding-left:8px; height:30px;}
+.button1, .button2, .button3, .button4, .button5, .button_orange{font-size:13px; text-align:center; color:#fff; background:#5b9bd5; width:140px; height:48px; border:2px solid #41719c; border-radius:5px;}
+.button2{background:#a9d18e; border:none;}
+.button3{background:#000000;}
+.button4{background:#ffc000; border:1px solid #000;}
+.button5{background:#ff0000;}
+.button_orange{background:#FF5E00;}
+
+.button_not_approved, .button_approved, .button_started, .button_paused, .button_completed{font-size:13px; text-align:center; color:#fff; background:#5b9bd5; width:140px; height:48px; border:2px solid #41719c; border-radius:5px;}
+.button_not_approved{background:#C9302C;}
+.button_approved{background:#3071A9;}
+.button_started {background:#449D44;}
+.button_paused{background:#FFE763; color:#000000;}
+.button_completed{background:#4E5154;}
+
+
+.send_sms_btn, .receive_reply_sms_btn{font-size:10px; text-align:center; color:#fff; background:#5b9bd5; width:50px; height:27px; border:2px solid #41719c; border-radius:5px;}
+.send_sms_btn{background:#449D44;}
+.receive_reply_sms_btn{background:#FFE763; color:#000000;}
+
+
+
+.job_button_not_approved, .job_button_approved, .job_button_started, .job_button_paused, .job_button_completed{font-size:13px; text-align:center; color:#fff; background:#5b9bd5; width:95px; height:30px; border:2px solid #41719c; border-radius:5px;}
+.job_button_not_approved{background:#C9302C;}
+.job_button_approved{background:#3071A9;}
+.job_button_started {background:#449D44;}
+.job_button_paused{background:#FFE763; color:#000000;}
+.job_button_completed{background:#4E5154;}
+
+.job_detalis .td1, .job_detalis .td2, .job_detalis .td3 {border:2px solid #fff;}
+.job_detalis .td1 td, .job_detalis .td2 td, .job_detalis .td3 td {border-left:1px solid #fff; padding-left:8px;}
+.job_detalis .heading td{padding-left:8px; border-left:1px solid #fff;}
+.job_detalis .Jose td, .Jose .td3, .Jose .td2, .Jose .td1{border:none;}
+.job_detalis .Jose .td3 td:first-child{border-right:1px solid #fff;}
+.job_detalis .Jose .td2 td:first-child{border-right:1px solid #fff;}
+.button form{margin-bottom:15px;}
+.Scope_of_Work{margin-bottom:0 !important;}
+.pickup_wrapp tr td{text-align:center;}
+.Supervisor tr td{text-align:center; height:40px;}	
+
+
+/* sign off sheet */
+.sign_sheet .blue{background:#5b9bd5;}
+.sign_off_work{border-bottom:5px solid #fff;}
+
+
+@media (max-width: 800px){
+	.button form{margin:0 15px 15px 0; float:left;}
+	
+}
